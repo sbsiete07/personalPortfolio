@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgb(7, 18, 41);
+    height: 3.5em;
+    width: 100%;
+}
+.logo{
+    height: 40px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 3.5em;
+    margin: 0 2em;
+    color: white;
+    transition: all .3s;
+}
+
+nav ul li:hover span{
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px rgb(0, 247, 255),
+    0 0 80px rgb(0, 247, 255),
+    0 0 90px rgb(0, 247, 255),
+    0 0 100px rgb(0, 247, 255),
+    0 0 150px rgb(0, 247, 255);
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.checkbtn{
+    line-height: 2!important;
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin: 0 2em;
+}
+
+#check{
+    display: none;
+}
+

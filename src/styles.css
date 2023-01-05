@@ -1,3 +1,7 @@
-html{
-    background-color: #000020;
+body{
+    margin: 0;
+    background-image: url("C:\Users\sbsiete\Documents\Portfolio\personalPortfolio\src\assets\wallpaper.jpg");
+    background-size: cover;
+    background-position: center center;
+    height:100vh 
 }
